@@ -4,9 +4,9 @@ Interactive simulation of rod and cone light adaptation based on Hamer et al. (2
 
 ## Live Demo
 
-**[▶ Launch Simulation](https://[your-username].github.io/retina-phototransduction-simulation/retina_simulator_primate.html)**
+**[▶ Launch Simulation](https://leonarweizz.github.io/retina-phototransduction-simulation/retina_simulator_primate.html)**
 
-**[▶ Arduino Prototype (Wokwi)](https://wokwi.com/projects/[project-id])**
+**[▶ Arduino Prototype (Wokwi)](https://wokwi.com/projects/450072916246326273)**
 
 ## Overview
 
