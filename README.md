@@ -34,7 +34,8 @@ Reduces the phototransduction cascade to 5 core equations while preserving:
 ## References
 
 - Hamer RD et al. (2005). *Visual Neuroscience* 22:417–436.
-- Lamb TD & Pugh EN (2006). *IOVS* 47:5138–5152.
+- Levin LA, Kaufman PL, Hartnett ME, editors. Adler's Physiology of the Eye. 
+12th ed. Philadelphia: Elsevier; 2024. p. 431–464.
 
 ## License
 
