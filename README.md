@@ -43,6 +43,6 @@ MIT License
 
 ## Citation
 ```
-Leonard Weiß (2026). Retina Phototransduction Simulation.
+Weiß L. (2026). Retina Phototransduction Simulation.
 https://github.com/leonarweizz/retina-phototransduction-simulation
 ```
