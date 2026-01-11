@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "author": "Retina Phototransduction Simulator - Hamer et al. (2005)",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 150, "left": 50, "attrs": {} },
+    { "type": "wokwi-slide-potentiometer", "id": "pot", "top": 20, "left": -80, "rotate": 90, "attrs": { "travelLength": "30" } },
+    
+    { "type": "wokwi-led", "id": "ledRod", "top": -30, "left": 100, "attrs": { "color": "purple", "label": "Rod J" } },
+    { "type": "wokwi-resistor", "id": "r1", "top": 30, "left": 86, "rotate": 90, "attrs": { "value": "220" } },
+    
+    { "type": "wokwi-led", "id": "ledCone", "top": -30, "left": 180, "attrs": { "color": "orange", "label": "Cone J" } },
+    { "type": "wokwi-resistor", "id": "r2", "top": 30, "left": 166, "rotate": 90, "attrs": { "value": "220" } },
+    
+    { "type": "wokwi-led", "id": "ledCombined", "top": -30, "left": 260, "attrs": { "color": "green", "label": "Combined" } },
+    { "type": "wokwi-resistor", "id": "r3", "top": 30, "left": 246, "rotate": 90, "attrs": { "value": "220" } }
+  ],
+  "connections": [
+    [ "pot:GND", "uno:GND.1", "black", [ "h0", "v200" ] ],
+    [ "pot:VCC", "uno:5V", "red", [ "h30", "v180" ] ],
+    [ "pot:SIG", "uno:A0", "green", [ "h60", "v160" ] ],
+    
+    [ "uno:3", "ledRod:A", "violet", [ "v-80" ] ],
+    [ "ledRod:C", "r1:2", "gray", [ "v0" ] ],
+    [ "r1:1", "uno:GND.2", "black", [ "v80" ] ],
+    
+    [ "uno:5", "ledCone:A", "orange", [ "v-90" ] ],
+    [ "ledCone:C", "r2:2", "gray", [ "v0" ] ],
+    [ "r2:1", "uno:GND.2", "black", [ "v85" ] ],
+    
+    [ "uno:10", "ledCombined:A", "green", [ "v-100" ] ],
+    [ "ledCombined:C", "r3:2", "gray", [ "v0" ] ],
+    [ "r3:1", "uno:GND.2", "black", [ "v90" ] ]
+  ]
+}
