@@ -28,8 +28,9 @@ Reduces the phototransduction cascade to 5 core equations while preserving:
 
 | File | Description |
 |------|-------------|
-| `retina_simulator_primate.html` | Browser-based interactive simulation |
+| `retina_simulator.html` | Browser-based interactive simulation |
 | `retina_phototransduction.ino` | Arduino source code |
+| `diagram.json` | Wokwi circuit configuration (Arduino, LEDs, potentiometer) |
 
 ## References
 
